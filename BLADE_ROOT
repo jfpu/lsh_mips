@@ -1,0 +1,17 @@
+cc_config(
+  cflags = [
+	  '-std=c++11',
+	],
+
+	cxxflags = [
+	  '-std=c++11',
+	],
+
+	warnings = [
+	  '-fPIC',
+	],
+
+	cxx_warnings = [
+	  '-fPIC',
+	]
+)
